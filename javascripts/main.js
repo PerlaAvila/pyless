@@ -1,18 +1,21 @@
-    $(document).ready(function() {  
-  		 $(".carousel-inner").swiperight(function() {  
-    		  $(this).parent().carousel('prev');  
-	    		});  
-		   $(".carousel-inner").swipeleft(function() {  
-		      $(this).parent().carousel('next');  
-	   });  
-
-		   $('.maps').click(function () {
-		    $('.maps iframe').css("pointer-events", "auto");
+(function ($) {
+  $(document).ready(function(){
+    
+    $(".navscroll").hide();
+	
+	// fade in .navbar
+	$(function () {
+		$(window).scroll(function () {
+            // set distance user needs to scroll before we fadeIn navbar
+			if ($(this).scrollTop() > 100) {
+				$('.navscroll').fadeIn();
+			} else {
+				$('.navscroll').fadeOut();
+			}
 		});
 
-		$( ".maps" ).mouseleave(function() {
-		  $('.maps iframe').css("pointer-events", "none"); 
-		});
+	
+	});
 
-		 $('.4ewOd-pzNkMb-haAclf').css('background-color','#00AAE4');
-	});  
+});
+  }(jQuery));
