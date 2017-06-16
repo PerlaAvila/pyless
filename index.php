@@ -17,80 +17,13 @@
   
 
 </head> 
-<header class="navbar navbar-fixed-top navbar-inverse">
-      <div class="container nav-top">
-      <p class="phones">MEX (800) 772 9537</p><p class="phones phone-2">US (800) 750 7099</p>
-        <a href="https://www.paylesscar.com" class="lang-link"></a>
-        <nav>
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
-            <ul class="nav navbar-nav navbar-right nav-bottom">
-              
-              <li><a href="#">Iniciar Sesión</a></li>
-              <li><a href="#">Registrarse</a></li>
-              <li><a href="#">Atención a Clientes</a></li>
-            <form class="navbar-form navbar-left">
-               <div class="form-group">
-                  <input type="text" class="form-control buscar" placeholder="Buscar">
-               </div>
-                <button type="submit" class="fa fa-search search"></button>
-            </form>
-            </ul>
-          </div>
-        </nav>
-      </div>
-
-      <nav class="navbar navbar-default " >
-  		<div class="container-fluid  nav-top ">
-    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		       <img src="images/payless-logo.png" alt: "logo" class='logo'/>
-		    </div>
-
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      <ul class="nav navbar-nav navbar-right main-menu-items">
-		        <li><a href="" class="menu-obj visible-xs-block">Iniciar sesión</a></li>
-		        <li><a href="" class="menu-obj visible-xs-block">Registro</a></li>
-		        <li><a href="" class="visible-xs-block" >Atención a clientes</a></li>
-		        <li><a href="" class="main-menu">Reservaciones</a></li>
-		        <li><a href="" class="main-menu">Promociones </a></li>
-		        <li><a href="" class="main-menu">Autos</a></li>
-		        <li><a href="" class="main-menu">Locaciones</a></li>
-		        <li><a href="" class="main-menu">Payless Club</a></li>
-		         <form class="navbar-form navbar-left visible-xs-block">
-		               <div class="form-group">
-		                  <input type="text" class="form-control buscar" placeholder="Buscar">
-		               </div>
-		                <button type="submit" class="fa fa-search search"></button>
-		            </form>
-		      </ul>
-		      
-		    </div><!-- /.navbar-collapse -->
-		</div><!-- /.container-fluid -->
-      </nav>  
-
-      <nav class="navscroll navbar navbar-default navbar-fixed-top" >
-  		<div class="container-fluid  nav-top ">
-		       <img src="images/payless-logo.png" alt: "logo" class='logo' id="nav-logo"/>
-
-		       <p class="phones tel" id="tel">MEX (800) 772 9537</p><br><p class="phones phone-2 tel" id="tel">US (800) 750 7099</p>
-
-
-		</div><!-- /.container-fluid -->
-      </nav>  
-    </header>
+<?php include("header.php"); ?>
 <body>  
 <div class="half-color">
     <div class="container top-content">
         <div class="row">
 	        <div class="col-md-6 search-eng">
-	           	<h2>
+	           	<h2 class="title-form">
 	           	 	Encuentra las mejores ofertas en coches de alquiler.
 	           	</h2>
 	           	    <form role="form" action="" method="">
@@ -182,6 +115,7 @@
 <!-- INICIA PROMOCIONONES -->
 
 <div class="gray">
+  <div id="circle-1"></div>
 	<div class="container promociones">
 	<div class="content-area">
 		<div id="myCarousel" class="carousel slide">
@@ -194,6 +128,7 @@
 
 		  <!-- Wrapper for slides -->
 		    <div class="carousel-inner">
+
 			    <div class="item active">
 					<div class="row promo">
 						<div class="col-sm-6 promos">
@@ -206,7 +141,7 @@
 						  <br>
 						  <button class="info">Más información</button>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-6 " id="orange-bg">
 							<div class="price">$19</div>
 							<div class="orange">
 							  <p>Lorem ipsum dolor sit amet</p>
@@ -229,7 +164,7 @@
 						  <br>
 						  <button class="info-1">Más información</button>
 						</div>
-						<div class="col-sm-6">
+						<div class="col-sm-6" id="blue-bg">
 							<div class="price">$19</div>
 							<div class="blue">
 							  <p>Lorem ipsum dolor sit amet</p>
@@ -242,7 +177,7 @@
 		        </div>
 			    <div class="item">
 			       <div class="row promo">
-						<div class="col-sm-6 promos">
+						<div class="col-sm-6 promos" id="green-bg">
 						  <h2 class="blue-title">Promociones</h2>
 						  <br>
 						  <br>
@@ -281,7 +216,7 @@
   	<center><h2 class="blue-title title-mobil">Autos</h2></center>
   </div>
 	  <div class="row">
-	  	<div class="col-sm-4 col-mob-1">
+	  	<div class="col-sm-4 col-mob-1" id="blue-sm">
 			
 		    <div class="lil-price">consectetur adipiscing</div>
 			<div class="lil-blue">
@@ -291,7 +226,7 @@
 		    	 <img src="images/jeep-wrangler.png" alt="Jeep wrangler" class='img-responsive'/>
 		    </div>	
 	  	</div>
-	  	<div class="col-sm-4 col-mob-1 autos-1">
+	  	<div class="col-sm-4 col-mob-1 autos-1" id="orange-sm">
 	  		<div class="lil-price">consectetur adipiscing</div>
 			<div class="lil-orange">
 			  <p>Lorem ipsum dolor sit amet</p>
@@ -300,7 +235,7 @@
 		    	 <img src="images/nissan-march.png" alt="Nissan March" class='img-responsive'/>
 		    </div>
 	  	</div>
-	  	<div class="col-sm-4 col-mob-1 autos-1">
+	  	<div class="col-sm-4 col-mob-1 autos-1" id="green-sm">
 	  		<div class="lil-price">consectetur adipiscing</div>
 			<div class="lil-green">
 			  <p>Lorem ipsum dolor sit amet</p>
@@ -316,79 +251,17 @@
 <!-- Locaciones -->
 
 <div class="mapa">
-  <div class="container">
-   <div class="circle"></div><h2 class="locations">Locaciones</h2>
+  <div class="container"></div><h2 class="locations">Locaciones</h2>
   </div> 
-    <div id ="maps" class="embed-container maps" style="width: 100%; height: 500px;">
+    <div id ="maps" class="embed-container maps">
 	<script type="text/javascript" src="javascripts/maps.js"></script>
     <script async defer
     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUt_UmWQlRNc8oYEavw_pX9TW5gJKib5o&callback=initMap">
     </script>
 </div>
-<div id="footer">
-  <div class="container ">
-	<div class="footer-menu row">
-		<div class="col-sm-3">
-			<h2 id="yellow-text">Reservaciones
-			</h2>
-			<p>Alquilar un coche</p>
-			<br>
-			<h2 id="yellow-text">Locaciones</h2>
-			<p>Nacional</p>
-			<p>Internacional</p>
 
-		</div>
-		<div class="col-sm-3">
-			<h2 id="yellow-text">Autos</h2>
-			<p>Nacionales</p>
-			<p>Internacionales</p>
-			<br>
-			<h2 id="yellow-text">Promociones</h2>
-		</div>
-		<div class="col-sm-3">
-			<h2 id="yellow-text">Payless Club
-			</h2>
-			<p>Beneficios</p>
-			<p>Regístrate</p>
-			<p>Programa</p>
-			<p>Afiliación</p>
-		</div>
-		<div class="col-sm-3">
-			<h2 id="yellow-text">Customer Care</h2>
-			<p>FAQ'S</p>
-			<br>
-			<h2 id="yellow-text">Privacy Policy</h2>
-			<p>Términos y Usos</p>
-			<p>Empleos</p>
-			<p>Mapa del Sitio</p>
-		</div>
-	</div>
-	<div class="row" id="footer-bottom">
-		<div class="col-sm-3">
-		</div>
-		<div class="col-sm-3">
-			<p class="right">Derechos Reservados Payless 2017</p>
-		</div>
-		<div class="col-sm-3">
-			<span class="fa-stack fa-lg">
-			  <i class="fa fa-circle-thin fa-stack-2x"></i>
-			  <i class="fa fa-facebook fa-stack-1x"></i>
-			</span>
-			<span class="fa-stack fa-lg">
-			  <i class="fa fa-circle-thin fa-stack-2x"></i>
-			  <i class="fa fa-twitter fa-stack-1x"></i>
-			</span>
-			<span class="fa-stack fa-lg">
-			  <i class="fa fa-circle-thin fa-stack-2x"></i>
-			  <i class="fa fa-instagram fa-stack-1x"></i>
-			</span>
-		</div>
-		<div class="col-sm-3">
-			
-		</div>
-	</div>
-  </div>	
-</div>
+<!-- footer -->
+<?php include("footer.php"); ?>
 <body>
 </html>
 

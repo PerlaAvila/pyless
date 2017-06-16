@@ -1,0 +1,577 @@
+@font-face {
+    font-family: interstateRegular;
+    src: url('../fonts/InterstateRegular.ttf');
+}
+@font-face {
+    font-family: interstateBold;
+    src: url('../fonts/InterstateBold.ttf');
+}
+@font-face {
+    font-family: interstateLight;
+    src: url('../fonts/InterstateLight.ttf');
+}
+@font-face {
+    font-family: interstateBlack;
+    src: url('../fonts/InterstateBlack.ttf');
+}
+
+
+
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size:16px;
+	font-weight: 200;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}    
+h1,
+h2,
+h3,
+h4,
+h5,{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bolder;
+	letter-spacing: 1px;
+}
+
+.header{
+    position: fixed;
+    height: 50px;
+    top: 0;
+    transition: top 0.2s ease-in-out;
+    width: 100%;
+}
+
+.nav-up {
+    top: -40px;
+}
+
+
+.navbar-default{
+	background-color: #111842 !important;
+	border-color: transparent;
+}
+
+.navbar-inverse{
+		background-color: #111842;
+		border-color: transparent;
+		position: inherit;
+		margin-bottom: 0;
+}		
+.nav-bottom > li > a{
+	font-family: 'Source Sans Pro', sans-serif;
+
+    font-size: 1.2em;
+	color: red !important;
+}
+
+.main-menu-items > li > a {
+	    color: white !important;
+		font-size: 1.6em;
+		padding-left: 3vw;
+}
+
+
+.nav-top{
+	width: 90%;
+    font-family: 'Source Sans Pro', sans-serif;
+	text-align: right;
+}
+
+.search{
+	background-color: transparent;
+    border-color: transparent;
+    font-size: 1.2em;
+    color: red;
+    font-size: 1.5em;
+}
+
+.buscar{
+	width: 100px;
+    height: 25px;
+}
+
+.logo img{
+	margin-top: -14%;
+    margin-left: 26%;
+    margin-bottom: 5%;
+}
+
+#nav-logo{
+	float: left;
+	width: 150px;
+	padding-top: 10px;
+}
+
+.navscroll{
+	background-color: rgba(17, 24, 66, 0.84) !important;
+}
+
+#tel{
+	text-align: right;
+	margin-right: 0% !important;
+	padding: 0;
+}
+
+
+.phones{
+	color: #FFDA00;
+	font-size: 1.7em;
+	font-family: 'Sorce Sans Pro', sans-serif;
+	display: inline-block;
+	padding: 10px;
+	margin-bottom: 0px;
+}
+
+
+.title-form{
+	font-weight: bold;
+	color: #111842;
+}
+
+#language{
+	color: rgba(245, 245, 245, 0.71);
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-left: 30px;
+}
+
+
+
+
+/* queries for mobile */
+
+@media only screen and (max-width: 768px){
+	.nav-bottom{
+		display: none;
+	}
+
+	.navbar-inverse .main-menu-items > li > a{
+		font-size: 1.2em;
+		padding-left: 11px;
+		line-height: 8px;
+	}
+    .logo{
+    	padding-left: 5%;
+    }
+
+    .usa{
+    	display: none;
+    }
+
+	.logo img{
+	    margin-top: 0%;
+	    margin-left: 3%;
+	    margin-bottom: 0%;
+	}
+
+	.nav-top{
+		text-align: left !important;
+		margin: 0;
+		padding: 9px;
+	}
+
+	.phones{
+		display: inline !important;
+		margin-right: 7%;
+		padding: 0% !important;
+		font-size: .9em !important;
+	}
+
+	.phone-2{				
+		line-height: 0px;
+	}
+	.tel{
+      padding: 0;
+      padding-left: 20px !important;
+	}
+
+    .promos{
+    	text-align: center;
+    }
+    
+    .title-mobil{
+    	padding-bottom: 20% !important;
+    }
+
+
+	.footer-menu{
+	  font-size: 1em !important;
+	}
+
+	#yellow-text{
+		font-size: 1.5em !important;
+	}
+
+	#footer-bottom{
+		padding-bottom: 15% !important;
+    }
+
+    #price{
+		font-size: 1em;
+	}
+
+	#orange{
+		font-size: 1em;
+	}
+
+	#cirlce{
+		display: none;
+	}
+
+	#circle-1{
+		display: none;
+	}
+
+	#right-img{
+		margin-right: 0;
+		float: left;
+	}
+}
+
+
+@media only screen and (max-width: 1464px) and (min-width: 767px){
+  .navbar-inverse .main-menu-items > li > a {
+	font-size: 1.5em;
+    padding-left: 1vw;
+  }
+}  
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	#price{
+		font-size: 2em;
+	}
+
+	#orange{
+		font-size: 2em;
+	}
+
+
+}
+
+
+
+/* general */
+
+h1{
+	font-size: 3em;
+	color: #333333
+}
+
+.content{
+	width: 80%;
+}
+
+/* Footer */
+.foot{
+	width: 80%;
+}
+#footer{
+	background-color: #111842;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.footer-menu{
+  padding-top: 6%;
+  color: white;
+  font-size: 14pt;
+  margin: 0px 0 3px;
+}
+
+#yellow-text{
+	color: #FFDA00;
+	font-size: 17pt;
+	font-weight: 500;
+}
+
+#footer-bottom{
+	padding-bottom: 5%;
+}
+
+.right{
+	color: white;
+	font-size: 18px;
+	padding-top: 15%;
+}
+
+.fa-stack{
+    padding-top: 12%;
+    color: white;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+
+/*main banner*/
+
+.price{
+    width: 33%;
+    z-index: 2;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 3em;
+    padding: 14% 0;
+    line-height: 1;
+    position: relative;
+    background: #111842;
+    color: white;
+}
+
+.orange{    
+	width: 62%;
+    z-index: 0;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 3em;
+    padding: 22% 0;
+    line-height: 1;
+    position: relative;
+    background: #faa21b;
+    color: white;
+    margin-left: 22%;
+    margin-top: -32%;
+	  
+}
+
+.mitsubishi{
+	        position: relative;
+	    margin-top: -25%;
+	    margin-left: 20%;
+}
+	
+
+.mitsubishi img{
+    width: 80%;
+    margin-left: 30%;
+}
+
+.inside-circle{
+	padding: 8%;
+}
+
+#orange-bg{
+	padding-top: 6%;
+	background-image: url('../images/fondos/bg-int-1.png');
+	background-size: cover;
+	background-repeat: no-repeat; 
+}
+
+.gray-text{
+	font-size: 1.5em;
+	color: #858585;
+}
+
+.note{
+
+}
+
+/* Segunda Sección */
+
+.circle{
+    width: 8vw;
+    height: 8vw;
+    border: transparent;
+    position: absolute;
+    margin-left: -5%;
+    border-width: 200px;
+    border-radius: 0 50% 50% 0;
+    background-color: #00aae4;
+}
+
+.info{
+    font-weight: 900;
+    font-size: 3em;
+    color: #111842;
+}
+
+.blue-text{
+	font-size: 2.2em;
+    font-weight: 600;
+	color: #00aae4;
+	line-height: 2.5;
+}
+
+.bold{
+	font-size: 1.1em;
+    font-weight: 600;
+	color: #858585;
+}
+.strong-blue{
+	font-size: 1.1em;
+    font-weight: 600;
+	color: #111842;
+}
+
+.note{
+	font-size: 1.6em;
+    padding-top: 3%;
+    font-weight: 600;
+    color: red;
+
+}
+
+.gray-text-2{
+
+    font-size: 1.3em;
+    color: #858585;
+}
+
+.gray-text-2 a{
+	font-size: 1.3em;
+}
+
+.flat{
+	background-image: url('../images/fondos/bg-flat.png');
+	background-size: cover;
+	background-repeat: no-repeat; 
+	margin-bottom: 10%;
+
+}
+
+/* forma */
+
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {   
+  border-color: rgba(25, 30, 190, 0.8);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(25, 30, 190, 0.5);
+  outline: 0 none;
+}
+
+
+
+input[type="checkbox"]{
+	width: 25px;
+}
+
+.btn-info {
+    color: white;
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    border-color: white;
+}
+
+.btn-info:hover {
+    color: white;
+    background-color: red;
+    border-color: white;
+}
+
+.input-group{
+  padding-top: 3%;
+  font-size: 1.3em;
+}
+
+.search-eng{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	padding: 2%;
+	margin-top: 8%;
+}
+.input-lg{
+	border-radius: 0px;
+	height: 50px;
+}
+
+.form-horizontal{
+	margin-top: 6%;
+}
+
+.space{
+	margin-top: 3%;
+}
+
+#register{
+	width: 100%;
+    border-radius: 0px;
+    height: 50px;
+    background-color: #00aae4;
+    color: white;
+    font-size: 1.5em
+}
+
+
+/* tercera seccion */
+.register{
+	background: #f3f3f3;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+
+.info-1{
+	font-family: 'Source Sans Pro', sans-serif;
+    font-size: 3em;
+    font-weight: 900;
+    margin-right: -25%;
+    color: #00aae4;
+} 
+
+.circle-1{
+    width: 8vw;
+    height: 8vw;
+    position: absolute;
+    border: transparent;
+    margin-left: -5%;
+    border-width: 200px;
+    border-radius: 0 50% 50% 0;
+	background-color: #111842;
+}
+
+.side-car img{
+	width: 80%
+}
+
+.right-img{
+	float: right;
+	margin-right: -10%;
+}
+
+.left-img{
+	float: left;
+}
