@@ -71,7 +71,6 @@ h5,{
 .main-menu-items > li > a {
 	    color: white !important;
 		font-size: 1.6em;
-		padding-left: 3vw;
 }
 
 
@@ -114,6 +113,12 @@ h5,{
 	text-align: right;
 	margin-right: 0% !important;
 	padding: 0;
+}
+
+.tel{
+    text-align: right;
+    margin-right: 0% !important;
+    padding: 0;
 }
 
 
@@ -281,9 +286,7 @@ h1{
 	color: #858585;
 }
 
-.row{
-	margin: 20px;
-}
+
 
 /* Footer */
 .foot{
@@ -296,17 +299,26 @@ h1{
 
 }
 
-.footer-menu{
+p a{
+    color: white;
+}
+.footer-menu {
   padding-top: 6%;
   color: white;
   font-size: 14pt;
   margin: 0px 0 3px;
 }
 
+#yellow-text a{
+    color: #FFDA00;
+    font-size: 17pt;
+    font-weight: 500;
+}
+
 #yellow-text{
-	color: #FFDA00;
-	font-size: 17pt;
-	font-weight: 500;
+    color: #FFDA00;
+    font-size: 17pt;
+    font-weight: 500;
 }
 
 #footer-bottom{
@@ -597,4 +609,9 @@ footer ul li {
 
 .col-sm-4{
 	padding-right: 0;
+}
+
+.fa-stack a{
+    padding-top: 12%;
+    color: white;
 }

@@ -14,25 +14,8 @@
 			}
 		});
 
-
-	$(".cupon").hide();	
-	$(".agent").hide();	
-
-
-	$("#coupon").on('click', function(){
-      $(".cupon").toggle();
-	});//hide coupon
-
-	$("#agent").on('click', function(){
-      $(".agent").toggle();
-	});//hide coupon
 	
-
-	$("#myCarousel").carousel();
-
-
-	
-	}); //document ready
+	});
 
 });
   }(jQuery));

@@ -70,7 +70,6 @@ h5,{
 .main-menu-items > li > a {
 	    color: white !important;
 		font-size: 1.6em;
-		padding-left: 3vw;
 }
 
 
@@ -109,10 +108,14 @@ h5,{
 	background-color: rgba(17, 24, 66, 0.84) !important;
 }
 
-#tel{
+.tel{
 	text-align: right;
 	margin-right: 0% !important;
 	padding: 0;
+}
+
+#tel{
+	padding: 1% 0;
 }
 
 .title-form{
@@ -129,7 +132,7 @@ h5,{
 /* queries for mobile */
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 768px){
 	.nav-bottom{
 		display: none;
 	}
@@ -159,114 +162,82 @@ h5,{
 		padding: 9px;
 	}
 
-	.phones{
-		display: inline !important;
-		margin-right: 7%;
-		padding: 0% !important;
-		font-size: .9em !important;
+	#phones{
+		margin-right: 1%;
+		padding: 0% 1%;
+		text-align: right;
+		font-size: .8em;
+		float: none;
 	}
 
 	.phone-2{				
 		line-height: 0px;
 	}
-	.tel{
-      padding: 0;
-      padding-left: 20px !important;
+	#tel{
+      padding: 5% 0;
+      font-size: .8em;
+      float: right;
 	}
 
 
 	.search-eng{
 	  width: 100% !important;
 	  padding: 8%;
+	  box-shadow: 1px 1px 6px #888888;
     }
 
-    .orange{
+    #big-circle{
     	padding: 34% 0 !important;
+    	font-size: 1em;
+    	width: 75%;
     }
 
     .promos{
     	text-align: center;
     }
     
-    .title-mobil{
-    	padding-bottom: 20% !important;
-    }
 
-    .half-color{
+    #half-color{
 		background: linear-gradient(to bottom, #111842 95%, white 5%)!important;
 		margin-bottom: 8em;
 
     }
-  /*
-    .lil-price{
-		    margin-top: -15% !important;
-		    z-index: 2 !important;
-		}
 
-		.lil-orange{
-		    position: relative !important;
-		    margin-top: -20% !important;
-		  
-		}
+    #icon-prev{
+    	margin-left: 0;
+    }
 
-		.lil-march-1{
-			position: relative !important;
-			margin-top: -15% !important;
-		}
-
-
-		.lil-blue{
-		    position: relative !important;
-		    margin-top: -20% !important;
-		  
-		}
-
-		.lil-jeep{
-			position: relative !important;
-			margin-top: -15% !important;
-		}
-
-		.lil-green{
-		    position: relative !important;
-		    margin-top: -20% !important;
-		  
-		}
-
-		.lil-yaris{
-			position: relative !important;
-			margin-top: -15% !important;
-		}
-
-		.col-mob-1{
-			margin-bottom: 20%;
-		}*/
-
-		.autos-1{
-			display: none;
-			background-image: none !important;
-		}
+    #icon-next{
+    	margin-right: 0;
+    }
+  
+	.autos-1{
+		display: none;
+		background-image: none !important;
+	}
     
+    #lil-price{
 
+    }
 	
-	.circle{
+	#circle{
 
-    width: 15% !important;
-    height: 14vw !important;
+    width: 15%;
+    height: 14vw;
     border: transparent;
-    margin-left: -9% !important;
+    margin-left: -9%;
 	}
 
-	.locations{
-    margin-top: -12% !important;
-    margin-left: 6% !important;
-    font-size: 8vw !important;
+	#locations{
+    margin-left: 6%;
+    font-size: 8vw;
 	}
 
 	.footer-menu{
 	  font-size: 1em !important;
 	}
 
-	#yellow-text{
+	#yellow-text a{
 		font-size: 1.5em !important;
 	}
 
@@ -274,37 +245,84 @@ h5,{
 		padding-bottom: 15% !important;
     }
 
+    #price{
+    	font-size: 2em;
+    }
+
+   
+
+    .circle {
+    	display: none;
+
+    }
+
+    #circle-1{
+    	display: none;
+    }
+
+    #orange-bg{
+    	padding: 2% 0 5% 8%;
+    	margin-bottom: 10%;
+    }
+    #blue-bg{
+    	padding: 2% 0 5% 8%;
+    	margin-bottom: 10%;
+    }
+    #green-bg{
+    	padding: 2% 0 5% 8%;
+    	margin-bottom: 10%;
+    }
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px){
+	#lil-price{
+		font-size: 1em;
+	}
+
+	#lil-big-circle{
+		font-size: 1.2em;
+	}
+
+	#circle-1{
+		display: none;
+	}
 }
 
 
-
-
-
 @media only screen and (max-width: 500px) and (min-width: 300px){
-	.gray .promo{
-		height: 63em !important;
-	}
-
+	
 	.col-mob-1{
 	    margin: 10%;
 	    padding-bottom: 20%;
 	}
+
+	#lil-price{
+		font-size: 1em;
+	}
+
+	#lil-big-circle{
+		font-size: 1.2em;
+	}
+
+	#big-circle{
+		width: 80%;
+	}
 }
 
 @media only screen and (max-width: 600px) and (min-width: 501px){
-	.gray .promo{
-		height: 67em !important;
-	}
+	
 	.col-mob-1{
 		margin: 20% !important;
 	    margin-top: 0% !important;
 	}
+	#lil-price{
+		font-size: 1.1em;
+	}
 }
 
 @media only screen and (max-width: 767px) and (min-width: 601px){
-	.gray .promo{
-		height: 80em !important;
-	}
+	
 
 	.col-mob-1{
 		margin: 20% !important;	
@@ -321,6 +339,10 @@ h5,{
   .orange{
     	padding: 36% 0 !important;
     }
+
+    #circle-1{
+    	display: none;
+    }
 }
 
 @media only screen and (max-width: 991px) and (min-width: 768px){
@@ -330,10 +352,35 @@ h5,{
 
     }
 
+    #price{
+    	font-size: 3em;
+    }
     #side-car{
     	width: 80% ;
     }
+
+    #big-circle{
+    	font-size: 1em;
+    }
+
+    #lil-price{
+		width: 50%;
+	    font-size: 1em;
+	    padding: 20% 0;
+	}
+
+	#lil-big-circle{
+		padding: 27% 0;
+		font-size: 1.1em;
+		line-height: 1;
+	}
+
+	.search-eng{
+		width: 100%;
+	}
 }	
+
+
 /* general */
 
 h1{
@@ -416,8 +463,8 @@ footer ul li {
 .blue-title{
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 3em;
+	font-weight: 900;
 	color: #111842;
-	font-weight: bolder;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	
@@ -473,6 +520,12 @@ input[type="checkbox"]{
   font-size: 1.3em;
 }
 
+#smol{
+	width: 40%;
+	display: inline;
+	margin-right: 10px;
+}
+
 
 
 
@@ -486,7 +539,6 @@ input[type="checkbox"]{
 }	
 	.promo{
 		padding-top: 5%;
-		height: 700px;
 	}
 	.price{
 	    width: 30%;
@@ -618,6 +670,20 @@ input[type="checkbox"]{
 	  background-repeat: no-repeat;
 
 }
+
+#blue-bg{
+	background-image: url('../images/fondos/blue-bg.png');
+	  background-size: cover;
+	  background-repeat: no-repeat;
+
+}
+
+#green-bg{
+	background-image: url('../images/fondos/green-bg.png');
+	  background-size: cover;
+	  background-repeat: no-repeat;
+
+}
 #circle-1{
     width: 21%;
     height: 19vw;
@@ -693,7 +759,7 @@ input[type="checkbox"]{
 		.lil-price{
 			    width: 40%;
 			    z-index: 2;
-			    border-radius: 50%;
+			    border-radius: 55%;
 			    text-align: center;
 			    font-size: 1.5em;
 			    padding: 14% 0;
@@ -709,8 +775,8 @@ input[type="checkbox"]{
 			    border-radius: 50%;
 			    text-align: center;
 			    font-size: 1.8em;
+			    line-height: 1;
 			    padding: 27% 0;
-			    line-height: 30px;
 			    position: relative;
 			    background: #FAA21B;
 			    color: white;
@@ -736,7 +802,7 @@ input[type="checkbox"]{
 			    text-align: center;
 			    font-size: 1.8em;
 			    padding: 27% 0;
-			    line-height: 30px;
+			    line-height: 1;
 			    position: relative;
 			    background: #00aae4;
 			    color: white;
@@ -763,7 +829,7 @@ input[type="checkbox"]{
 			    text-align: center;
 			    font-size: 1.8em;
 			    padding: 27% 0;
-			    line-height: 30px;
+			    line-height: 1;
 			    position: relative;
 			    background: #009E16;
 			    color: white;
@@ -791,13 +857,13 @@ input[type="checkbox"]{
 
 
 
-	#blue-sm{
+#blue-sm{
 
-	  background-image: url('../images/fondos/blue-sm.png');
-	  background-size: cover;
-	  background-repeat: no-repeat;
-	  padding-bottom: 5%;
-	}
+  background-image: url('../images/fondos/blue-sm.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}  
+
 
 
 #orange-sm{
@@ -831,11 +897,14 @@ input[type="checkbox"]{
     background-color: #00aae4;
 }
 
+.mapa{
+	max-height: 150px;
+}
+
 .locations{
 	font-family: 'Sourse Sans Pro', sans-serif;
-	position: absolute;
-margin-top: -7%;
-font-size: 3vw;
+	font-size: 3em;
+	font-weight: 900;
 }
 
 
@@ -859,12 +928,20 @@ font-size: 3vw;
 	background-size: cover;
 
 }
-
-.footer-menu{
+p a{
+	color: white;
+}
+.footer-menu {
   padding-top: 6%;
   color: white;
   font-size: 14pt;
   margin: 0px 0 3px;
+}
+
+#yellow-text a{
+	color: #FFDA00;
+	font-size: 17pt;
+	font-weight: 500;
 }
 
 #yellow-text{
@@ -888,6 +965,11 @@ font-size: 3vw;
     color: white;
 }
 
+
+.fa-stack a{
+    padding-top: 12%;
+    color: white;
+}
 
 
 

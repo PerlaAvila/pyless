@@ -20,7 +20,7 @@
 
 <body>
   <div class="main-cars">
-    <div class="circle"></div>
+    <div class="circle" id="circle"></div>
     <div class="container">
       <div class="row">
         <span>
@@ -38,7 +38,7 @@
                 <p>Nissan March</p>
               </div>
               <div class="lil-march-1">
-                <img src="images/nissan-march.png" alt="Nissan March" class='img-responsive'/>
+                <img src="images/flotilla/nissan-march-1.png" alt="Nissan March" class='img-responsive'/>
               </div>  
           </div>
           <div class="col-sm-8" id="table">
@@ -72,7 +72,7 @@
                 <p>Nissan Versa</p>
               </div>
               <div class="lil-vento">
-                <img src="images/vento.png" alt="Vento" class='img-responsive'/>
+                <img src="images/flotilla/volkswagen-vento.png" alt="Vento" class='img-responsive'/>
               </div>  
           </div>
           <div class="col-sm-8" id="table">
@@ -106,7 +106,7 @@
                 <p>Hyundai Elantra</p>
               </div>
               <div class="lil-mitsubishi">
-                <img src="images/mitsubishi.png" alt="Mitsubishi" class='img-responsive'/>
+                <img src="images/flotilla/mitsubishi-l200.png" alt="Mitsubishi" class='img-responsive'/>
               </div>  
           </div>
           <div class="col-sm-8" id="table">

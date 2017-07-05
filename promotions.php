@@ -22,15 +22,19 @@
 <!-- big-banner -->
 <div id="main-banner">
   <div class="container">
-    <div class="col-sm-12 " id="orange-bg">
-        <div class="price" id="price">Payless Deals</div>
-        <div class="orange" id="orange">
-          <p class="inside-circle">Pague ahora y ahorre hasta un 20%</p>
+    <div class="row">
+      <div class="col-sm-2">&nbsp;</div>
+        <div class="col-sm-8 " id="orange-bg">
+            <div class="price" id="price">Payless Deals</div>
+            <div class="orange" id="orange">
+              <p class="inside-circle">Pague ahora y ahorre hasta un 20%</p>
+            </div>
+            <div class="mitsubishi">
+                <img src="images/flotilla/nissan-xtrail.png" alt="Mitsubishi" class='img-responsive'/>
+            </div>  
         </div>
-        <div class="mitsubishi">
-            <img src="images/mitsubishi.png" alt="Mitsubishi" class='img-responsive'/>
-        </div>  
-    </div>
+      <div class="col-sm-2">&nbsp;</div>  
+    </div>    
     <p class="gray-text">Pague ahora. Ahorre Mucho</p>
   </div>
 </div>
@@ -44,47 +48,47 @@
             <h2 class="info">Obtener las tarifas</h2>
             <h2 class="blue-text">Pague ahora. Ahorre mucho.</h2>
             <div class="gray-text"><span class="bold">Reserve en línea y pague por adelantado</span> para <span class="strong-blue">ahorrar hasta un 20% de descuento</span> en la tarifa del contador de Payless.</div>
-            <div> <img src="images/jeep-wrangler.png" alt="Jeep" class='img-responsive'/></div>
+            <div> <img src="images/flotilla/toyota-sienna.png" alt="Toyota Sienna" class='img-responsive'/></div>
         </div>
         <div class="col-sm-6 search-eng">
-                  <form role="form" action="" method="">
-                      <div id="contact-form" class="form-container" data-form-container>
-                          <br>
-                  <div class="input-group">
-                  <input type="text" class="input-lg form-control" placeholder="Aeropuerto / Ciudad o escoge tu locación" aria-describedby="basic-addon2">
+            <form role="form" action="" method="">
+              <div id="contact-form" class="form-container" data-form-container>
+                 <br>
+                <div class="input-group">
+                  <input type="text" class=" input-lg form-control" placeholder="Aeropuerto / Ciudad o escoge tu locación" aria-describedby="basic-addon2">
                   <span class="input-group-addon" id="basic-addon2"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                  </div>
-                  <br>
-                  <div class="row">
-                    <div class="col-sm-3">
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
-                      <span class="input-group-addon" id="basic-addon2"><i class="fa fa-calendar" aria-hidden="true"></i></span>
-                    </div>
-                    </div>
-                    <div class="col-sm-3">
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
-                      <span class="input-group-addon" id="basic-addon2"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
-                    </div>
-                    </div>
-                  <div class="col-sm-3">
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
-                      <span class="input-group-addon" id="basic-addon2"><i class="fa fa-calendar" aria-hidden="true"></i></span>
-                    </div>
-                  </div>
-                  <div class="col-sm-3">
-                    <div class="input-group">
-                      <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
-                      <span class="input-group-addon" id="basic-addon2"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
-                    </div>
-                    </div>
                 </div>
+                  <br>
+                <div class="row">
+                  <div class="col-sm-3">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
+                      <span class="input-group-addon" id="basic-addon2"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
+                      <span class="input-group-addon" id="basic-addon2"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
+                      <span class="input-group-addon" id="basic-addon2"><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                    </div>
+                  </div>
+                  <div class="col-sm-3">
+                    <div class="input-group">
+                      <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon2">
+                      <span class="input-group-addon" id="basic-addon2"><i class="fa fa-clock-o" aria-hidden="true"></i></span>
+                    </div><!-- input -->
+                  </div><!-- column -->
+                </div><!-- row -->
                 <br>
                 <div class="input-group">
-                        <input type="checkbox" aria-label="Checkbox for following text input">
-                        <span>Regresar a otro lugar</span>
+                  <input type="checkbox" aria-label="Checkbox for following text input">
+                  <span>Regresar a otro lugar</span>
                 </div>  
                 <br>
                 <div class="row">
@@ -109,19 +113,33 @@
                     </div>
                   </div>
                 </div>
-                <input type="submit" class="btn btn-info" value="Submit Button">
+                <input type="submit" class="btn btn-info" value="Obtener tarifa">
               <br>
               <div class="input-group checkbx">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-                    <span> Tengo un código de cupón / PDN</span>
+                <input type="checkbox" id="coupon" aria-label="Checkbox for following text input">
+                    <span> Tengo un código de cupón / PDN</span>
+              </div>
+              <div class="cupon">
+                <form id="" class="" method="" >
+                  <div class="form-group">
+                    <span><input id="smol" class="form-control" type="text" name="cupon" placeholder="Código del cupón"><input class="form-control" id="smol" type="text" name="pdn" placeholder="PDN"></span>
+                  </div>
+                </form>
               </div>
               <div class="input-group checkbx">
-                <input type="checkbox" aria-label="Checkbox for following text input">
-                    <span> ¿Es usted un agente de viajes / Perks Member?</span><i class="fa fa-question" aria-hidden="true"></i>
+                <input id="agent" type="checkbox" aria-label="Checkbox for following text input">
+                    <span> ¿Es usted un agente de viajes / Perks Member?</span>
+              </div>
+              <div class="agent">
+                <form id="" class="" method="" >
+                  <div class="form-group">
+                    <span><input id="smol" class="form-control" type="text" name="perks" placeholder="Perks ID"><input class="form-control" id="smol" type="text" name="arc" placeholder="ARC / IATA"></span>
+                  </div><!-- form group -->
+                </form>
               </div>
             </div>
-          </form>  
-          </div>
+          </form>
+        </div><!-- search eng -->
     </div>
         <div class="flat">      
           <div class="note">Detalles de la Oferta</div>
@@ -173,13 +191,13 @@
           </div>
           <div class="col-sm-5">
             <div class="row side-car">
-              <img src="images/vento.png" alt="Nissan Vento" class='img-responsive right-img' id="right-img"/>
+              <img src="images/flotilla/volkswagen-vento.png" alt="Volkswagen Vento" class='img-responsive right-img' id="right-img"/>
             </div>
             <div class="row side-car">
-              <img src="images/jeep-wrangler.png" alt="Jeep Wrangler" class='img-responsive left-img'/>
+              <img src="images/flotilla/nissan-march-1.png" alt="Nissan March" class='img-responsive left-img' id="ima"/>
             </div>
             <div class="row side-car">
-              <img src="images/nissan-march.png" alt="Nissan March" class='img-responsive right-img' id="right-img"/>
+              <img src="images/flotilla/toyota-sienna.png" alt="Nissan March" class='img-responsive right-img' id="right-img"/>
             </div>  
           </div>
         </div>
