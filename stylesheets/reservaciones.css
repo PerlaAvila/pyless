@@ -155,7 +155,7 @@ h5,{
 @media only screen and (max-width: 767px){
 
 	#reservation-form{
-		background: linear-gradient(to bottom, #111842 95%, white 5%)!important;
+		background: linear-gradient(to bottom, #111842 85%, white 15%);
 		margin-bottom: 8em;
 
     }
@@ -494,6 +494,124 @@ footer ul li {
 .fa-stack a{
     padding-top: 12%;
     color: white;
+}
+
+.prev-step{
+	color: white;
+    background-color: #00aae4;
+    border: none;
+    border-radius: 0;
+}
+.prev-step:hover{
+	color: white;
+    background-color: red;
+    border: none;
+    border-radius: 0;
+}
+
+.next-step{
+	color: white;
+    background-color: #00aae4;
+    border: none;
+    border-radius: 0;
+}
+
+.next-step:hover{
+	color: white;
+    background-color: red;
+    border: none;
+    border-radius: 0;
+}
+
+/* second step */
+.back{
+	background-color: white;
+	padding: 5%;
+}
+
+.box{
+	padding: 2% 0 2% 10%;
+    color: #222222;
+    background-color: #e8e7e3;
+}
+
+.place{
+	font-size: 1.2em;
+    color: #666666;
+}
+
+.city{
+	font-size: 2em;
+    color: #111842;
+}
+
+.date{
+	font-size: 2em;
+    color: red;
+}
+
+.lil-price{
+    width: 40%;
+    z-index: 2;
+    border-radius: 55%;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 16% 0;
+    line-height: 1;
+    position: relative;
+    background: #111842;
+    color: white;
+}
+
+.lil-blue{
+    width: 72%;
+	    z-index: 0;
+	    border-radius: 50%;
+	    text-align: center;
+	    font-size: 1.8em;
+	    padding: 27% 0;
+	    line-height: 1;
+	    position: relative;
+	    background: #00aae4;
+	    color: white;
+	    margin-left: 19%;
+	    margin-top: -25%;
+  
+}
+
+.lil-blue p{
+	margin: 1%;
+}
+
+.btn-prepago{
+	
+}
+
+
+.lil-jeep{
+	position: relative;
+	margin-top: -20%;
+}
+
+.lil-jeep img{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#blue-md{
+
+  background-image: url('../images/fondos/blue-sm.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5%;
+}  
+
+.blue-title{
+
+}
+
+.blue-light{
+
 }
 
 

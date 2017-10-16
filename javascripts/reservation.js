@@ -1,13 +1,5 @@
 $(document).ready(function () {
 
-	
-//if ($("#step2").hasClass("active")){
-//  $("#reservation-form").css("whiteback");
-//};
-
-
-
-
 
 
     //Wizard

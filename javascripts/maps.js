@@ -191,6 +191,11 @@ function initMap() {
                 title: data.title
             });
 
+            //infoWindow color
+            google.maps.event.addListenerOnce(map, 'idle', function(){
+             jQuery('.gm-style-iw').prev('div').remove();
+            }); 
+
             //Resize Function
             google.maps.event.addDomListener(window, "resize", function() {
               var center = map.getCenter();
@@ -202,7 +207,7 @@ function initMap() {
             (function (marker, data) {
                 google.maps.event.addListener(marker, "click", function (e) {
                     //Wrap the content inside an HTML DIV in order to set height and width of InfoWindow.
-                    infoWindow.setContent("<div style = 'width:400px;min-height:400px'>" + "<center><img src='" + data.imglink + "'></center></br>" + data.description + "</div>");
+                    infoWindow.setContent("<div class='cities' style = 'width:300px;min-height: 330px'>" + "<center><img src='" + data.imglink + "'></center></br>" + data.description + "</div>");
                     infoWindow.open(map, marker);
                 });
             })(marker, data);

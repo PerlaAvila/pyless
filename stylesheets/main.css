@@ -198,7 +198,7 @@ h5,{
     
 
     #half-color{
-		background: linear-gradient(to bottom, #111842 95%, white 5%)!important;
+		background: linear-gradient(to bottom, #111842 95%, white 5%);
 		margin-bottom: 8em;
 
     }
@@ -753,100 +753,100 @@ input[type="checkbox"]{
 	background-size: cover;
 }		
 
-		.carousel-1{
-			display: none;
-		}
-		.lil-price{
-			    width: 40%;
-			    z-index: 2;
-			    border-radius: 55%;
-			    text-align: center;
-			    font-size: 1.5em;
-			    padding: 14% 0;
-			    line-height: 1;
-			    position: relative;
-			    background: #111842;
-			    color: white;
-		}
+.carousel-1{
+	display: none;
+}
+.lil-price{
+	    width: 40%;
+	    z-index: 2;
+	    border-radius: 55%;
+	    text-align: center;
+	    font-size: 1.5em;
+	    padding: 14% 0;
+	    line-height: 1;
+	    position: relative;
+	    background: #111842;
+	    color: white;
+}
 
-		.lil-orange{
-		        width: 72%;
-			    z-index: 0;
-			    border-radius: 50%;
-			    text-align: center;
-			    font-size: 1.8em;
-			    line-height: 1;
-			    padding: 27% 0;
-			    position: relative;
-			    background: #FAA21B;
-			    color: white;
-			    margin-left: 19%;
-			    margin-top: -25%;
-	  
-		}
+.lil-orange{
+        width: 72%;
+	    z-index: 0;
+	    border-radius: 50%;
+	    text-align: center;
+	    font-size: 1.8em;
+	    line-height: 1;
+	    padding: 27% 0;
+	    position: relative;
+	    background: #FAA21B;
+	    color: white;
+	    margin-left: 19%;
+	    margin-top: -25%;
 
-		.lil-march-1{
-			position: relative;
-			margin-top: -20%;
-		}
+}
 
-		.lil-march-1 img{
-		    width: 80%;
-		    margin-left: 10%;
-		}
+.lil-march-1{
+	position: relative;
+	margin-top: -20%;
+}
 
-		.lil-blue{
-		    width: 72%;
-			    z-index: 0;
-			    border-radius: 50%;
-			    text-align: center;
-			    font-size: 1.8em;
-			    padding: 27% 0;
-			    line-height: 1;
-			    position: relative;
-			    background: #00aae4;
-			    color: white;
-			    margin-left: 19%;
-			    margin-top: -25%;
-		  
-		}
+.lil-march-1 img{
+    width: 80%;
+    margin-left: 10%;
+}
 
-		.lil-jeep{
-			position: relative;
-			margin-top: -20%;
-		}
+.lil-blue{
+    width: 72%;
+	    z-index: 0;
+	    border-radius: 50%;
+	    text-align: center;
+	    font-size: 1.8em;
+	    padding: 27% 0;
+	    line-height: 1;
+	    position: relative;
+	    background: #00aae4;
+	    color: white;
+	    margin-left: 19%;
+	    margin-top: -25%;
+  
+}
 
-		.lil-jeep img{
-		    width: 80%;
-		    margin-left: 10%;
-		}
+.lil-jeep{
+	position: relative;
+	margin-top: -20%;
+}
+
+.lil-jeep img{
+    width: 80%;
+    margin-left: 10%;
+}
 
 
-		.lil-green{
-		   width: 72%;
-			    z-index: 0;
-			    border-radius: 50%;
-			    text-align: center;
-			    font-size: 1.8em;
-			    padding: 27% 0;
-			    line-height: 1;
-			    position: relative;
-			    background: #009E16;
-			    color: white;
-			    margin-left: 19%;
-			    margin-top: -25%;
-		  
-		}
+.lil-green{
+   width: 72%;
+	    z-index: 0;
+	    border-radius: 50%;
+	    text-align: center;
+	    font-size: 1.8em;
+	    padding: 27% 0;
+	    line-height: 1;
+	    position: relative;
+	    background: #009E16;
+	    color: white;
+	    margin-left: 19%;
+	    margin-top: -25%;
+  
+}
 
-		.lil-yaris{
-			position: relative;
-			margin-top: -20%;
-		}
+.lil-yaris{
+	position: relative;
+	margin-top: -20%;
+}
 
-		.lil-yaris img{
-		    width: 80%;
-		    margin-left: 10%;
-		}
+.lil-yaris img{
+    width: 80%;
+    margin-left: 10%;
+}
 
 
         
@@ -913,10 +913,15 @@ input[type="checkbox"]{
 }
 
 
-	#maps{
-		width: 100%;
-		height: 500px;
-	}
+#maps{
+	width: 100%;
+	height: 500px;
+}
+
+#maps > div{
+	background-color: #111842
+
+}
 
 /* Footer */
 .foot{
@@ -969,6 +974,17 @@ p a{
 .fa-stack a{
     padding-top: 12%;
     color: white;
+}
+
+
+.cities{
+	padding: 5%;
+    background-color: #111842;
+    color: white;
+}
+
+.cities img{
+	width: 250px;
 }
 
 
